@@ -7,6 +7,9 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.5"
+spotipy = { git = "https://github.com/plamere/spotipy", rev = "4c2c1d763a3653aa225c4af848409ec31286a6bf" }
+requests = "^2.20"
+pillow = "^5.3"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.641.0"
